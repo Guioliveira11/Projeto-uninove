@@ -1,107 +1,103 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(45deg, red, blue)
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(90deg, red, blue)
+  }
+
+  div {
+      background-color: rgba(0, 0, 0, 1);
+      position: absolute;
+      top: 15%;
+      left: 53%;
+      transform: translate(-50%,-50%);
+      padding: 80px;
+      border-radius: 15px;
+      color: white;
+      border: 2px solid #000;
+      border-radius: 5px;
+      box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+     }
+
+     input {
+      padding: 15px;
+      border: none;
+      outline: none;
+      font-size: 15px;
+     }
+
+    .btn1 {
+      width: 30%;
+      padding: 4%;
+      border: 2px solid #000;
+      border-radius: 5px;
+      font-size: clamp(10px, 5vw, 1rem);
+      font-weight: 700;
+      color: white;
+      background-color: black;
+      box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+      position: absolute;
+      bottom: 10%;
+      left: 30%;
+      width: 12%; 
+      height: 6%;     
+  }
+    
+    .btn2 {
+      width: 30%;
+      padding: 4%;
+      border: 2px solid #000;
+      border-radius: 5px;
+      font-size: clamp(8px, 5vw, 1rem);
+      font-weight: 700;
+      color: white;
+      background-color: black;
+      box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+      position: absolute;
+      bottom: 40%;
+      left: 30%;
+      width: 12%; 
+      height: 6%;  
+
     }
 
-    div {
-        background-color: rgba(0, 0, 0, 1);
-        position: absolute;
-        top: 15%;
-        left: 53%;
-        transform: translate(-50%,-50%);
-        padding: 80px;
-        border-radius: 15px;
-        color: white;
-        border: 2px solid #000;
-        border-radius: 5px;
-        box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
-       }
-
-       input {
-        padding: 15px;
-        border: none;
-        outline: none;
-        font-size: 15px;
-       }
-
-      .btn1 {
-        width: 30%;
-        padding: 4%;
-        border: 2px solid #000;
-        border-radius: 5px;
-        font-size: clamp(10px, 5vw, 1rem);
-        font-weight: 700;
-        color: white;
-        background-color: black;
-        box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
-        position: absolute;
-        bottom: 10%;
-        left: 30%;
-        width: 20%; 
-        height: 25%;     
+    .btn3 {
+      width: 30%;
+      padding: 4%;
+      border: 2px solid #000;
+      border-radius: 5px;
+      font-size: clamp(8px, 5vw, 1rem);
+      font-weight: 700;
+      color: white;
+      background-color: black;
+      box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+      position: absolute;
+      bottom: 40%;
+      left: 55%;
+      width: 12%; 
+      height: 6%; 
     }
-      
-      .btn2 {
-        width: 30%;
-        padding: 4%;
-        border: 2px solid #000;
-        border-radius: 5px;
-        font-size: clamp(8px, 5vw, 1rem);
-        font-weight: 700;
-        color: white;
-        background-color: black;
-        box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
-        position: absolute;
-        bottom: 40%;
-        left: 30%;
-        width: 20%; 
-        height: 25%;  
 
+
+    .btn4 {
+      width: 30%;
+      padding: 4%;
+      border: 2px solid #000;
+      border-radius: 5px;
+      font-size: clamp(8px, 5vw, 1rem);
+      font-weight: 700;
+      color: white;
+      background-color: black;
+      box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+      position: absolute;
+      bottom: 10%;
+      left: 55%;
+      width: 12%; 
+      height: 6%;  
+      display:flexbox;
+      gap: 22px;
+
+    }
+  
+      button:hover {
+       background-color: rgb(69, 69, 70);
+       cursor: pointer;
       }
-
-      .btn3 {
-        width: 30%;
-        padding: 4%;
-        border: 2px solid #000;
-        border-radius: 5px;
-        font-size: clamp(8px, 5vw, 1rem);
-        font-weight: 700;
-        color: white;
-        background-color: black;
-        box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
-        position: absolute;
-        bottom: 40%;
-        left: 55%;
-        width: 20%; 
-        height: 25%;
-      }
-
-
-      .btn4 {
-        width: 30%;
-        padding: 4%;
-        border: 2px solid #000;
-        border-radius: 5px;
-        font-size: clamp(8px, 5vw, 1rem);
-        font-weight: 700;
-        color: white;
-        background-color: black;
-        box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
-        position: absolute;
-        bottom: 10%;
-        left: 55%;
-        width: 20%; 
-        height: 25%;  
-        display:flexbox;
-        gap: 22px;
-
-      }
-    
-        button:hover {
-         background-color: rgb(69, 69, 70);
-         cursor: pointer;
-        }
-    
-     
-
-    
